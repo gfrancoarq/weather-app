@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body onload="onLoad()">
+    <main>
+  <div class="container py-4">
+    <header class="pb-3 mb-4 border-bottom">
+      <a href="#" class="d-flex align-items-center text-dark text-decoration-none">
+        <img id="logo" src="images/w-logo.gif" alt="Weather App Logo">
+        <h2 class="logo-gf">Weather App</h2>
+      </a>
+    </header>
+
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="center container-fluid py-5">
+        <h2>The weather in your city is:</h2>
+        <div class="loader-box">
+            <div id="loader" class="loader ">Loading...</div>
+        </div>
+    
+    <div class="container-data center-data">
+
+        <table>
+            <tr>
+                <td>
+                    <h1 id="location"></h4>
+                    <h4 id="date"></h4>
+                    <h4 id="description"></h4>
+                </td>
+                <td>
+                    <p><span id="temperature"></span></h4>
+                    <p><span id="mintemp"></span></h4>
+                    <p><span id="maxtemp"></span></h4>
+                    <p><span id="pressure"></span></h4>
+                    <p><span id="humidity"></span></h4>
+                </td>
+            </tr>
+        </table>
+      
+    </div>
+
+        <hr>
+                <p class="col-md-12 fs-6">Hey There! I'm Franco. If you liked this little application and you want to see my portfolio, click here 👇</p>
+        <a href="https://gfrancoarq.github.io/personal-portfolio/"
+            target="_blank"
+            class="btn btn-gf btn-lg"
+            >Portfolio</a>
+
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3 center">
+          <h2>About this Project</h2>
+          <hr>
+          <div>
+           <ul class="tags">
+              <li>
+                <p class="project-tag">HTML</p>
+              </li>
+              <li>
+                <p class="project-tag">CSS</p>
+              </li>
+              <li>
+                <p class="project-tag">Javascript</p>
+              </li>
+            </ul>
+          </div>
+          <p>This project was developed using HTML, CSS and Javascript. It consists of identifying your location through the browser, to make a query to the weather API and get the data for your city. Do you want to see the code and an explanatory video?.</p>
+            <a href="https://github.com/gfrancoarq/weather-app"
+            target="_blank"
+            class="btn btn-gf"
+            >Go to Github</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-white border rounded-3 center">
+          <h2>Which API are we using?</h2>
+          <hr>
+          <img id="cloud" src="images/animatedcloud.gif" alt="Animated cloud">
+          <p>We are using the Open Weather Map API. It's totally free! You can get the weather by entering the city, zip code, or the user's location to query, as we do here!</p>
+            <a href="https://openweathermap.org"
+            target="_blank"
+            class="btn btn-outline-secondary"
+            >Go to the API</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="pt-3 mt-4 text-muted border-top flex">
+      <img class="profile" src="images/perfil-redondo.png" alt="Developer Profile Picture">
+        <p>
+          Developed by
+          <a
+            href="https://github.com/gfrancoarq"
+            class="text-white"
+            target="_blank"
+            >@gfrancoarq</a
+          >
+        </p>
+    </footer>
+  </div>
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+
+
+
+  </body>
+</html>
