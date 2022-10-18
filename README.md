@@ -11,7 +11,7 @@
 
 Do you want to see the code explained? Watch the video here 👇
 
-[![Video Explanation](https://i9.ytimg.com/vi/myfELA6H-Co/mqdefault.jpg?v=634d93bb&sqp=CPCmtpoG&rs=AOn4CLCiDey8scVj59nXrSZKCiyeZyzUcw)](https://youtu.be/myfELA6H-Co)
+[![Video Explanation](https://i9.ytimg.com/vi_webp/fCqI_UlTv_4/mqdefault.webp?v=634f0470&sqp=COiGvJoG&rs=AOn4CLAmG73yPvPBxz0EpadZgK6Is6LoIQ)](https://youtu.be/fCqI_UlTv_4)
 
 ## Live Demo
 
